@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="public/style.css">
+
+    <title>Tracking</title>
+  </head>
+
+  <body>
+    <div id="main">
+      <canvas id="myCanvas"></canvas>
+      <h1>jjlk</h1>
+      <script>
+        /*connect with calculation.js - file*/
+        var canvas = document.getElementById("myCanvas");
+        const ctx = canvas.getContext("2d");
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.fillStyle = "orange";
+        ctx.fillRect(20, 10, 10, 10);
+      </script>
+    </div>
+  </body>
+</html>
